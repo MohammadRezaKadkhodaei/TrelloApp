@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  background-color: #66f0a4;
+}
+
+.head{
+  font-family: initial;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.list-container {
+  display: flex;
+  flex: row nowrap;
+  align-items: flex-start;
+  padding: 10px;
+  justify-content: left;
+}
+
+.list {
+  background: lightgrey;
+  padding: 10px;
+  max-width: 220px;
+  margin: 0 20px;
+
+  box-shadow: 0px 0px 33px -4px rgba(0,0,0,0.20);
+}
+
+.delete-list{
+  border: none;
+  color: red;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 20px;
+  position: relative;
+  right: 7px;
+  bottom: 5px;
+}
+
+.delete-task{
+  border: none;
+  color: red;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 14px;
+  float: right;
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+}
+
+.list .list-ul{
+  padding-bottom: 80px;
+}
+
+.list-dimension {
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+.list-header {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.input-header{
+  border: 1px solid #eee;
+  border-radius: 5px;
+  width: 98%;
+  height: 28px;
+  font-size: 15px;
+}
+
+.list-inner-scroll {
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-item {
+  background: ghostwhite;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  overflow: auto;
+  cursor: pointer
+}
+
+.card__data{
+  font-size: 12px;
+  width: 50px;
+  margin-top: 7px; 
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.add-list-button {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font-size: 15px;
+  color: #B3D3E5;
+  border: none;
+  transition: all 0.3s;
+}
+.add-list-button:hover {
+    background-color: #005586;
+    cursor: pointer;
+}
+
+.task-input{
+  width: 95%;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.add-card{
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background: green;
+  cursor: pointer;
+  margin: 18px 0; 
+
+}
+
+hr{
+  margin-top: 40px;
+}
+
+
+
+
+
+
